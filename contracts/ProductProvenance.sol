@@ -37,7 +37,7 @@ contract ProductProvenance is ERC721 {
    *
    */
   modifier isOwner() {
-    require(msg.sender == owner, "This function is restricted to the contract's owner");
+    require(msg.sender == owner, "This function is restricted to the contract owner");
     _;
   }
 
@@ -46,7 +46,7 @@ contract ProductProvenance is ERC721 {
    *
    */
   modifier isNotOwner() {
-    require(msg.sender != owner, "This function is restricted to the contract's consumers");
+    require(msg.sender != owner, "This function is restricted to the contract consumers");
     _;
   }
 
