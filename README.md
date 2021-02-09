@@ -1,4 +1,4 @@
-# BOUN ETM555: ERC721 token based supply chain	traceability system
+# ERC721 token based supply chain	traceability 
 
 ## Authors: SevgicanV, GorkemA, DenizM
 
@@ -37,10 +37,27 @@ npm i @openzeppelin/contracts@solc-0.7 -s
 
 - Go to project root folder:
 
+- Install dependencies via npm: 
+
 ```bash
 npm i 
 ```
 
+- Start the truffle development server (which is a test-rpc a.k.a ganache-cli anyways) 
+
 ```bash
 truffle develop
 ```
+
+- And start playing around with the contracts after migration, how to interact with your contracts is [here](https://www.trufflesuite.com/docs/truffle/getting-started/interacting-with-your-contracts)
+
+
+- Alternatively one can start the truffle console (for which you have to configure a development server in ./truffle-config.js)
+```bash
+truffle console
+```
+
+- More details for quick start on  [truffle](https://www.trufflesuite.com/)
+
+
+
