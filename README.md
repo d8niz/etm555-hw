@@ -7,6 +7,8 @@
 This repository contains the group project for ETM555 Design Of Information Systems class.
 
 
+One can read the report from [here](https://github.com/d8niz/etm555-hw/reports).
+
 ### TECH STACK
 
 - Solidity ^0.0.7
